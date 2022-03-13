@@ -26,14 +26,14 @@ call_10 : "Mengunduh Lagu Berikutnya dari Daftar Putar"
 call_11 : "Tambahkan @{0} ke saluran Anda[ ID: {1}].\n\nBot tidak dapat  dapatkan detail saluran."
 
 # PLUGINS - Auth.py
-auth_1 : "आपके समूह की अधिकृत उपयोगकर्ता सूची (AUL) में केवल 20 उपयोगकर्ता हो सकते हैं|"
-auth_2 : "आपके समूह की अधिकृत उपयोगकर्ता सूची में जोड़ा गया।"
-auth_3 : "पहले से ही अधिकृत उपयोगकर्ता सूची में है।"
-auth_4 : "इस समूह की अधिकृत उपयोगकर्ता सूची से हटाया गया।"
-auth_5 : "अधिकृत उपयोगकर्ता नहीं है।"
-auth_6 : "अधिकृत उपयोगकर्ताओं को लाया जा रहा है... कृपया प्रतीक्षा करें"
-auth_7 : "**अधिकृत उपयोगकर्ता सूची[AUL]:**\n\n"
-auth_8 : "┗ द्वारा जोड़ा गया: -"
+auth_1 : "Anda hanya dapat memiliki 20 Pengguna di Daftar Pengguna Resmi (AUL) grup Anda"
+auth_2 : "Ditambahkan ke Daftar Pengguna Resmi grup Anda."
+auth_3 : "Sudah ada di Daftar Pengguna Resmi."
+auth_4 : "Dihapus dari Pengguna yang Sah  Daftar Grup ini."
+auth_5 : "Pengguna yang ditargetkan bukan Pengguna yang Sah."
+auth_6 : "Mengambil Pengguna yang Sah... Harap Tunggu"
+auth_7 : "**Daftar Pengguna yang Diotorisasi[AUL]:**\n\n"
+auth_8  : "┗ Ditambahkan Oleh:-"
 
 # PLUGINS - Admins
 admin_1 : "Musik sudah Dijeda."
@@ -179,9 +179,9 @@ playmode_1 : "Pilih mode di mana Anda ingin memainkan kueri di dalam grup Anda[{
 playmode_2 : "Setelan diubah dan berhasil disimpan oleh {0}"
 
 #Stream 
-str_1 : "कृपया M3u8 लिंक या इंडेक्स लिंक प्रदान करें।"
-str_2 : "मान्य स्ट्रीम सत्यापित\n\nकृपया संसाधन लिंक की प्रतीक्षा करें.."
-str_3 : "यूट्यूब लाइव स्ट्रीम स्ट्रीम करने में असमर्थ। कोई लाइव प्रारूप नहीं मिला"
+str_1 : "Harap Berikan Tautan M3u8 atau Tautan Indeks."
+str_2 : "✅ Streaming Valid Terverifikasi\n\nHarap tunggu memproses tautan.."
+str_3 : "Tidak dapat melakukan streaming streaming langsung youtube. Tidak Ada Format Langsung Ditemukan"
 
 #TopPlay
 tracks_1 : "**Processing {0} Top 10 Playlist**\nThis could take some mins(around 3-4 mins).. Please Wait...\n\n**👤Requested By:** {1}\n\nCheck Top 10 tracks by /stats"
@@ -191,27 +191,27 @@ tracks_2 : "**ERROR**\n\nTidak ada **{0} Top 10 Playlist** di server bot. silaka
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**उपयोग:**\n\n/गीत [संगीत का नाम]"
-lyrics_2 : "गीत खोज रहे हैं"
-lyrics_3 : "❌ गीत लाने में विफल😭.\n\n💡**खोजने की कोशिश की:** {0}"
-lyrics_4 : "नीचे दिए गए बटन पर क्लिक करें और लंबे स्पैम प्रकार के गीत खोज से बचने के लिए खोजे गए गीत प्राप्त करें।"
+lyrics_1 : "**Usage:**\n\n/lyrics [ Music Name]"
+lyrics_2 : "Searching Lyrics"
+lyrics_3 : "❌ Gagal mengambil lirik😭.\n\n💡**Mencoba Mencari:** {  0}"
+lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
 ping_1 : "Pong!!!!"
 ping_2 : "**Pong!**\n`⚡{0} ms`\n\n<b><u>{1} Statistik Sistem:</u></b>\nUptime : {2} \nRAM : {3 } \nCPU : {4} \nDisk : {5}"
 
 # Song
-song_1 : "आप YouTube से केवल निजी चैट में संगीत या वीडियो डाउनलोड कर सकते हैं। कृपया मुझे निजी चैट में शुरू करें।"
-song_2 : "**gunakan:**\n\n/lagu [nama musik] atau [tautan youtube]"
-song_3 : "लाइव लिंक का पता चला। मैं लाइव यूट्यूब वीडियो डाउनलोड नहीं कर पा रहा हूं।"
-song_4 : "**🔗शीर्षक:**- {0}\n\nउस प्रकार का चयन करें जिसमें आप डाउनलोड करना चाहते हैं।"
-song_5 : "मान्य Youtube लिंक नहीं है"
-song_6 : "फ़ॉर्मैट मिल रहे हैं.. \n\nकृपया प्रतीक्षा करें.."
-song_7 : "वीडियो के लिए उपलब्ध प्रारूप प्राप्त करने में विफल। कृपया कोई अन्य ट्रैक आज़माएं।"
-song_8 : "डाउनलोड शुरू हुआ\n\nडाउनलोड करने की गति धीमी हो सकती है। कृपया पकडे रखे.."
-song_9 : "Youtube-DL से गाना डाउनलोड करने में विफल\n\n**कारण:** {0}"
-song_10 : "सर्वर से टेलीग्राम पर अपलोड करने में विफल।"
-song_11 : "अपलोडिंग प्रारंभ\n\nअपलोडिंग गति धीमी हो सकती है। कृपया पकडे रखे.."
+song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya di obrolan pribadi. Silakan mulai saya di obrolan pribadi."
+song_2 : "**Penggunaan:**\n\n/song [Nama Musik] atau [Tautan YouTube]"
+song_3  : "Tautan Langsung Terdeteksi. Saya tidak dapat mengunduh video youtube langsung. "
+song_4 : "**🔗Title:**- {0}\n\nPilih jenis yang ingin Anda unduh."
+song_5 : "Bukan  link Youtube yang valid"
+song_6 : "Mendapatkan Format.. \n\nSilakan Tunggu.."
+song_7 : "Gagal mendapatkan format yang tersedia untuk video. Silakan coba trek lain."
+song_8 : "Pengunduhan Dimulai\n\nKecepatan pengunduhan mungkin  lambat. Harap tunggu.."
+song_9 : "Gagal mengunduh lagu dari Youtube-DL\n\n**Alasan:** {0}"
+song_10 : "Gagal mengunggah di telegram dari server."
+song_11 : "Pengunggahan Dimulai  \n\nKecepatan pengunggahan mungkin lambat. Harap tunggu sebentar.."
 
 # Tools - Queue
 queue_1 : "Mohon ditunggu..antri.."
@@ -274,7 +274,7 @@ PL_B_5 : "🔄 daftar putar lengkap dell"
 PL_B_6 : "↗️ hapus daftar putar"
 PL_B_7 : "❗️ Ya saya yakin. Singkirkan"
 PL_B_8 : "🔢 mainkan 10 besar"
-PL_B_9 : "🤖 Mainkan 10 Lagu Teratas Dunia"
+PL_B_9 : "🤖 Mainkan 10 lagu Teratas Dunia"
 PL_B_10 : "🏘 Mainkan 10 lagu teratas grup"
 PL_B_11 : "👤 Mainkan 10 lagu teratas individu"
 
@@ -326,13 +326,13 @@ SA_B_8 : "🤖 Statistik Bot"
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
 #Sudo
-sudo_1 : "{0} पहले से ही एक sudo उपयोगकर्ता है।"
-sudo_2 : "सुडो उपयोगकर्ताओं के लिए ***** जोड़ा गया।" 
-sudo_3 : "बॉट के सूडो का हिस्सा नहीं है।"
-sudo_4 : "बॉट के सूडो उपयोगकर्ता से हटाया गया"
-sudo_5 : "⭐️<u> **मालिक:**</u>\n"
-sudo_6 : "\n⭐️<u> **सुडो उपयोगकर्ता:**</u>\n"
-sudo_7 : "कोई सूडो उपयोगकर्ता नहीं"
+sudo_1 : "{0} sudah menjadi pengguna Sudo."
+sudo_2 : "Ditambahkan **{0}** ke Pengguna Sudo."
+sudo_3 : "Bukan bagian dari Sudo Bot."
+sudo_4 : "Dihapus dari Pengguna Sudo Bot"
+sudo_5 : "⭐️<u> **Pemilik:**</u>\n"
+sudo_6 : "\n⭐️<u> *  *Pengguna Sudo:**</u>\n"
+sudo_7 : "Tidak Ada Pengguna Sudo"
 
 #Block
 block_1 : "{0} पहले से ही बॉट से अवरुद्ध है।"
@@ -354,10 +354,9 @@ black_7 : "**ब्लैक लिस्टेड चैट्स:**\n\n"
 black_8 : "कोई ब्लैकलिस्टेड चैट नहीं"
 
 #videolimit
-vid_1 : "**उपयोग:**\n/set_video_limit [चैट की संख्या की अनुमति है] या [अक्षम करें]"
-vid_2 : "कृपया सीमा निर्धारित करने के लिए संख्यात्मक संख्याओं का प्रयोग करें।"
-vid_3 : "वीडियो कॉल की अधिकतम सीमा {0} चैट के लिए निर्धारित है।"
-vid_4 : "वीडियो कॉल अक्षम"
+vidmode_1 : "**Usage:**\n/videomode [download|m3u8]"
+vidmode_2 : "Mode Putar Video disetel sebagai downloder. Bot akan mengunduh trek sekarang."
+vidmode_3 : "Mode Putar Video disetel sebagai m3u8. Bot akan  putar lagu secara langsung sekarang."
 
 #maintenance
 maint_1 : "**उपयोग:**\n/रखरखाव [सक्षम करें|अक्षम करें]"
@@ -384,21 +383,21 @@ broad_6 : "Please provide some text to broadcast."
 broad_7 : "**Broadcasted Message to {0} Users.**"
 
 #Heroku
-heroku_1 : "कृपया सुनिश्चित करें कि आपकी हेरोकू एपीआई कुंजी, आपका ऐप नाम उसकेोकू में सही ढंग से कॉन्फ़िगर किया गया है"
-heroku_2 : "आप केवल Heroku Apps के लॉग प्राप्त कर सकते हैं"
-heroku_3 : "**उपयोग:**\n/get_var [वर नाम]"
-heroku_4 : "ऐसा कोई भी संस्करण खोजने में असमर्थ।"
-heroku_5 : ".env फ़ाइल नहीं मिली।"
-heroku_6 : "**उपयोग:**\n/del_var [वर नाम]"
-heroku_7 : "{0} हटा दिया गया।"
-heroku_8 : "**उपयोग:**\n/set_var [वर नाम] [वर मान]"
-heroku_9 : "{0} सफलतापूर्वक अपडेट कर दिया गया है"
-heroku_10 : "{0} सफलतापूर्वक जोड़ दिया गया है"
-heroku_11 : "केवल हरोकू ऐप्स के लिए"
-heroku_12 : "हरोकू उपयोग की जाँच करना। कृपया प्रतीक्षा करें"
-heroku_13 : "उपलब्ध अपडेट की जांच की जा रही है..."
-heroku_14 : "गिट कमांड त्रुटि"
-heroku_15 : "अमान्य गिट रिपोजिटरी"
+heroku_1 : "Pastikan Heroku API Key Anda, Nama Aplikasi Anda dikonfigurasi dengan benar di heroku"
+heroku_2 : "Anda hanya bisa mendapatkan log dari Aplikasi Heroku"
+heroku_3 : "**Usage:**\n/get_var [Var Name]  "
+heroku_4 : "Tidak dapat menemukan var seperti itu."
+heroku_5 : ".env file not found."
+heroku_6 : "**Usage:**\n/del_var [Var Name]"
+heroku_7 : "{0} Dihapus."
+heroku_8  : "**Usage:**\n/set_var [Var Name] [Var Value]"
+heroku_9 : "{0} telah berhasil diperbarui"
+heroku_10 : "{0} telah berhasil ditambahkan"
+heroku_11 : "Hanya untuk Aplikasi Heroku  "
+heroku_12 : "Memeriksa Penggunaan Heroku. Harap Tunggu"
+heroku_13 : "Memeriksa pembaruan yang tersedia..."
+heroku_14 : "Git Command Error"
+heroku_15 : "Repositori Git Tidak Valid"
 
 #Private bot mode
 pbot_1 : "**Penggunaan:**\n/Otorisasi [CHAT_ID]"
