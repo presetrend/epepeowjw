@@ -33,7 +33,7 @@ auth_4 : "Dihapus dari Pengguna yang Sah  Daftar Grup ini."
 auth_5 : "Pengguna yang ditargetkan bukan Pengguna yang Sah."
 auth_6 : "Mengambil Pengguna yang Sah... Harap Tunggu"
 auth_7 : "**Daftar Pengguna yang Diotorisasi[AUL]:**\n\n"
-auth_8  : "┗ Ditambahkan Oleh:-"
+auth_8 : "┗ Ditambahkan Oleh:-"
 
 # PLUGINS - Admins
 admin_1 : "Musik sudah Dijeda."
@@ -354,9 +354,10 @@ black_7 : "**ब्लैक लिस्टेड चैट्स:**\n\n"
 black_8 : "कोई ब्लैकलिस्टेड चैट नहीं"
 
 #videolimit
-vidmode_1 : "**Usage:**\n/videomode [download|m3u8]"
-vidmode_2 : "Mode Putar Video disetel sebagai downloder. Bot akan mengunduh trek sekarang."
-vidmode_3 : "Mode Putar Video disetel sebagai m3u8. Bot akan  putar lagu secara langsung sekarang."
+vid_1 : "**Usage:**\n/set_video_limit [Jumlah obrolan yang diizinkan] atau [Nonaktifkan]"
+vid_2 : "Silakan Gunakan Angka Numerik untuk Menyetel Batas."
+vid_3 : "Batas Maksimum Panggilan Video Ditetapkan untuk {0} Obrolan.  "
+vid_4 : "Panggilan Video Dinonaktifkan"
 
 #maintenance
 maint_1 : "**उपयोग:**\n/रखरखाव [सक्षम करें|अक्षम करें]"
@@ -369,9 +370,9 @@ log_2 : "सक्षम लॉगिंग"
 log_3 : "लॉगिंग अक्षम"
 
 #videomode
-vidmode_1 : "**उपयोग:**\n/वीडियो मोड [डाउनलोड|m3u8]"
-vidmode_2 : "वीडियो प्ले मोड डाउनलोडर के रूप में सेट है। बॉट अब ट्रैक डाउनलोड कर रहा होगा।"
-vidmode_3 : "वीडियो प्ले मोड को m3u8 के रूप में सेट किया गया है। बॉट अब लाइव प्ले ट्रैक होंगे।"
+vidmode_1 : "**Usage:**\n/videomode [download|m3u8]"
+vidmode_2 : "Mode Putar Video disetel sebagai downloder. Bot akan mengunduh trek sekarang."
+vidmode_3 : "Mode Putar Video disetel sebagai m3u8. Bot akan  putar lagu secara langsung sekarang."
 
 #broadcast
 broad_1 : "**बॉट से {1} पिन के साथ {0} चैट में प्रसारित संदेश।**"
