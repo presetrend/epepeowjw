@@ -143,7 +143,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan ekstensi file video yang valid!\n\n**Format yang didukung:** {0}"
 play_9 : "Ukuran file video harus kurang dari 1 GiB"
 play_10 : "**Fitur Daftar Putar YouTube**\n\nPilih mode yang Anda inginkan untuk memutar seluruh daftar putar YouTube"
-play_11 : "Judul: *{0}{0}\n\n⏳Durasi:** {1} mnt"
+play_11 : "📎Judul: **{0}\n\n⏳Durasi:** {1} mnt"
 play_12 : "**Daftar Putar Spotify**\n\nDiminta oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah URL ini terkait dengan salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso, dan Soundcloud.\n\nAnda M3u8 atau Remote Link /stream dapat digunakan."
