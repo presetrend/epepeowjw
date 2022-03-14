@@ -324,7 +324,7 @@ SA_B_8 : "🤖 Statistik Bot"
 
 
 
-# Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
+# Pengguna Sudo [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Inggris]
 
 #Sudo
 sudo_1 : "{0} sudah menjadi pengguna Sudo."
@@ -336,13 +336,13 @@ sudo_6 : "\n⭐️<u> *  *Pengguna Sudo:**</u>\n"
 sudo_7 : "Tidak Ada Pengguna Sudo"
 
 #Block
-block_1 : "{0} पहले से ही बॉट से अवरुद्ध है।"
-block_2 : "**{0}** को बॉट की ब्लॉक सूची में जोड़ा गया। उपयोगकर्ता अब किसी भी स्थिति में बॉट का उपयोग नहीं कर पाएगा।\n\nअवरुद्ध उपयोगकर्ताओं की जाँच करें: /अवरुद्ध उपयोगकर्ता"
-block_3 : "उपयोगकर्ता पहले से ही मुफ़्त है और अवरुद्ध नहीं है।"
-block_4 : "उपयोगकर्ता को ब्लॉक सूची से हटाया गया। यूजर अब बॉट का इस्तेमाल कर सकेगा।"
-block_5 : "कोई अवरुद्ध उपयोगकर्ता नहीं मिला"
-block_6 : "अवरुद्ध उपयोगकर्ता सूची प्राप्त करना.. कृपया प्रतीक्षा करें"
-block_7 : "**अवरुद्ध उपयोगकर्ता:**\n\n"
+block_1 : "{0} sudah diblokir dari bot."
+block_2 : "Ditambahkan **{0}** ke Daftar Blokir bot. Pengguna tidak akan dapat menggunakan bot sekarang dalam kondisi apa pun.\n\nPeriksa diblokir  users: /blockedusers"
+block_3 : "Pengguna sudah bebas dan tidak diblokir."
+block_4 : "Pengguna yang dihapus dari daftar blokir. Pengguna akan dapat menggunakan bot sekarang."
+block_5 : "Tidak Ada Pengguna yang Diblokir Ditemukan"
+block_6 : "Diblokir  Daftar Pengguna.. Harap Tunggu"
+block_7 : "**Pengguna yang Diblokir:**\n\n"
 
 #Blacklist Chats
 black_1 : "**Penggunaan:**\n/blacklistchat [CHAT_ID]"
