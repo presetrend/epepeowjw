@@ -345,14 +345,14 @@ block_6 : "अवरुद्ध उपयोगकर्ता सूची प
 block_7 : "**अवरुद्ध उपयोगकर्ता:**\n\n"
 
 #Blacklist Chats
-black_1 : "**उपयोग:**\n/ब्लैक लिस्ट चैट [CHAT_ID]"
-black_2 : "चैट पहले से ही ब्लैक लिस्टेड है।"
-black_3 : "चैट को सफलतापूर्वक ब्लैकलिस्ट कर दिया गया है"
-black_4 : "**उपयोग:**\n/श्वेतसूचीचैट [CHAT_ID]"
-black_5 : "चैट पहले से ही श्वेतसूची में है।"
-black_6 : "चैट को सफलतापूर्वक श्वेतसूची में डाल दिया गया है"
-black_7 : "**ब्लैक लिस्टेड चैट्स:**\n\n"
-black_8 : "कोई ब्लैकलिस्टेड चैट नहीं"
+black_1 : "**Penggunaan:**\n/blacklistchat [CHAT_ID]"
+black_2 : "Obrolan sudah masuk daftar hitam."
+black_3 : "Obrolan telah berhasil masuk daftar hitam"
+black_4 : "**Penggunaan:**\n/whitelistchat [CHAT_ID  ]"
+black_5 : "Obrolan sudah masuk daftar putih."
+black_6 : "Obrolan telah berhasil masuk daftar putih"
+black_7 : "**Obrolan yang Masuk Daftar Hitam:**\n\n"
+black_8 : "Tidak Ada Obrolan yang Masuk Daftar Hitam"
 
 #videolimit
 vid_1 : "**Usage:**\n/set_video_limit [Jumlah obrolan yang diizinkan] atau [Nonaktifkan]"
@@ -382,7 +382,7 @@ broad_3 : "**Siaran Asisten:**\n\n"
 broad_4 :  "Asisten {0} Disiarkan di {1} obrolan\n"
 broad_5 : "**Penggunaan**:\n/broadcast [MESSAGE] atau [Balas Pesan]"
 broad_6 : "Harap berikan beberapa teks untuk disiarkan."
-broad_7  : "**Pesan yang Disiarkan ke {0} Pengguna.**"
+broad_7 : "**Pesan yang Disiarkan ke {0} Pengguna.**"
 
 #Heroku
 heroku_1 : "Pastikan Heroku API Key Anda, Nama Aplikasi Anda dikonfigurasi dengan benar di heroku"
@@ -412,7 +412,7 @@ pbot_7 : "Gagal memverifikasi chat_id.\n\nPastikan numerik dan dalam format yang
 pbot_8 : "Mohon tunggu.... Mengambil Obrolan Resmi."
 pbot_9 : "**<b>Obrolan yang Diambil:</b>**\n\n"
 pbot_10 : "Obrolan Pribadi"
-pbot_11  : "Tidak ada obrolan Resmi yang ditemukan"
+pbot_11 : "Tidak ada obrolan Resmi yang ditemukan"
 pbot_12 : "Mode Bot Pribadi dinonaktifkan.\n\nUntuk menggunakan bot Anda sebagai bot pribadi, pastikan untuk menyetel **PRIVATE_BOT_MODE** = **Benar**"
 pbot_13 : "\n**<  b>Obrolan yang Tidak Diambil:</b>**\n\n"
 
