@@ -1,5 +1,6 @@
 name : Indonesia
 
+# by t.me/urferi
 # General Strings
 general_1 : "Balas pesan pengguna atau berikan nama pengguna/user_id."
 general_2 : "Kesalahan! Penggunaan Perintah Salah."
@@ -124,12 +125,12 @@ playcb_1 : "Ini bukan untukmu! Cari Lagu Milik Anda|"
 playcb_2 : "dapatkan hasil selanjutnya"
 
 # Channel Play
-cplay_1 : "आप इस चैट से चैनलों में संगीत चला सकते हैं[{0}] किसी भी चैनल या अपने चैट के लिंक किए गए चैनल के लिए।\n\n**लिंक किए गए चैनल के लिए:**\n`/{1} linked`\n\n** किसी अन्य चैनल के लिए:**\n`/{1} [चैनल आईडी]`"
-cplay_2 : "इस चैट का कोई लिंक्ड चैनल नहीं है।"
-cplay_3 : "चैनल परिभाषित {0}\n\n__चैनल आईडी__: {1}"
-cplay_4 : "चैनल प्राप्त करने में विफल.\n\nसुनिश्चित करें कि आपने अपने चैनल में बॉट जोड़ा है और इसे व्यवस्थापक के रूप में प्रचारित किया है।\nचैनल को /चैनलप्ले के माध्यम से बदलें या चैनल प्ले मोड को /प्लेमोड के माध्यम से अक्षम करें"
-cplay_5 : "केवल चैनल समर्थित हैं।"
-cplay_6 : "चैनल को इस समूह से जोड़ने के लिए आपका **स्वामी** होना आवश्यक है[{0}]।\n**चैनल का स्वामी:** @{1}\n\nवैकल्पिक रूप से आप अपने समूह को उस चैनल से लिंक कर सकते हैं और फिर `/ channelplay लिंक्ड` से कनेक्ट करने का प्रयास करें"
+cplay_1 : "Anda dapat memutar musik di saluran dari obrolan ini[{0}] ke saluran mana pun atau saluran tertaut obrolan Anda.\n\n**Untuk saluran tertaut:**\n`/{1} linked`\n\  n**Untuk saluran lainnya:**\n`/{1} [ID Saluran]`"
+cplay_2 : "Obrolan ini tidak memiliki saluran tertaut."
+cplay_3 : "Saluran Ditetapkan ke {0}\n\n__ID Saluran__: {  1}"
+cplay_4 : "Gagal mendapatkan saluran.\n\nPastikan Anda telah menambahkan bot di saluran Anda dan mempromosikannya sebagai admin.\nUbah saluran melalui /channelplay atau nonaktifkan mode putar saluran melalui /playmode"
+cplay_5 : "Hanya Saluran yang  didukung."
+cplay_6 : "Anda harus menjadi **Pemilik** saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat tautkan grup Anda ke saluran itu, lalu coba sambungkan dengan `/channelplay linked`"
 
 #Play
 play_1 : "Memproses Kueri... Harap tunggu!"
@@ -360,14 +361,14 @@ vid_3 : "Batas Maksimum Panggilan Video Ditetapkan untuk {0} Obrolan.  "
 vid_4 : "Panggilan Video Dinonaktifkan"
 
 #maintenance
-maint_1 : "**उपयोग:**\n/रखरखाव [सक्षम करें|अक्षम करें]"
-maint_2 : "रखरखाव के लिए सक्षम"
-maint_3 : "रखरखाव मोड अक्षम"
+maint_1 : "**Usage:**\n/maintenance [enable|disable]"
+maint_2 : "Enabled for Maintenance"
+maint_3 : "Mode Pemeliharaan Dinonaktifkan"
 
 #log
-log_1 : "**उपयोग:**\n/लॉगर [सक्षम करें|अक्षम करें]"
-log_2 : "सक्षम लॉगिंग"
-log_3 : "लॉगिंग अक्षम"
+log_1 : "**Penggunaan:**\n/logger [enable|disable]"
+log_2 : "Enabled Logging"
+log_3 : "Logging Dinonaktifkan"
 
 #videomode
 vidmode_1 : "**Usage:**\n/videomode [download|m3u8]"
@@ -375,13 +376,13 @@ vidmode_2 : "Mode Putar Video disetel sebagai downloder. Bot akan mengunduh trek
 vidmode_3 : "Mode Putar Video disetel sebagai m3u8. Bot akan  putar lagu secara langsung sekarang."
 
 #broadcast
-broad_1 : "**बॉट से {1} पिन के साथ {0} चैट में प्रसारित संदेश।**"
-broad_2 : "सहायक प्रसारण प्रारंभ किया गया..."
-broad_3 : "**सहायक प्रसारण:**\n\n"
-broad_4 : "Assistant {0} Broadcasted in {1} chats\n"
-broad_5 : "**Usage**:\n/broadcast [MESSAGE] or [Reply to a Message]"
-broad_6 : "Please provide some text to broadcast."
-broad_7 : "**Broadcasted Message to {0} Users.**"
+broad_1 : "**Pesan yang Disiarkan Dalam {0} Obrolan dengan {1} Pin dari Bot.**"
+broad_2 : "Memulai Siaran Asisten..."
+broad_3 : "**Siaran Asisten:**\n\n"
+broad_4 :  "Asisten {0} Disiarkan di {1} obrolan\n"
+broad_5 : "**Penggunaan**:\n/broadcast [MESSAGE] atau [Balas Pesan]"
+broad_6 : "Harap berikan beberapa teks untuk disiarkan."
+broad_7  : "**Pesan yang Disiarkan ke {0} Pengguna.**"
 
 #Heroku
 heroku_1 : "Pastikan Heroku API Key Anda, Nama Aplikasi Anda dikonfigurasi dengan benar di heroku"
@@ -401,29 +402,29 @@ heroku_14 : "Git Command Error"
 heroku_15 : "Repositori Git Tidak Valid"
 
 #Private bot mode
-pbot_1 : "**Penggunaan:**\n/Otorisasi [CHAT_ID]"
-pbot_2 : "**उपयोग:**\n/अनधिकृत [CHAT_ID]"
-pbot_3 : "दी गई चैट को अधिकृत सूची में जोड़ा गया"
-pbot_4 : "दी गई चैट को अधिकृत सूची से हटाया गया"
-pbot_5 : "चैट पहले से ही अधिकृत सूची में है"
-pbot_6 : "अधिकृत सूची में ऐसी कोई चैट मौजूद नहीं है"
-pbot_7 : "chat_id सत्यापित करने में विफल.\n\nसुनिश्चित करें कि यह अंकीय और सही प्रारूप में है. चैट उपयोगकर्ता नाम या लिंक का उपयोग न करें।"
-pbot_8 : "कृपया प्रतीक्षा करें.... अधिकृत चैट लाई जा रही हैं।"
-pbot_9 : "**<b>प्राप्त चैट:</b>**\n\n"
-pbot_10 : "निजी चैट"
-pbot_11 : "कोई अधिकृत चैट नहीं मिली"
-pbot_12 : "निजी बॉट मोड अक्षम है।\n\nअपने बॉट को निजी बॉट के रूप में उपयोग करने के लिए **PRIVATE_BOT_MODE** = **सही** सेट करना सुनिश्चित करें"
-pbot_13 : "\n**<b>अनफ़ेच्ड चैट:</b>**\n\n"
+pbot_1 : "**Usage:**\n/authorize [CHAT_ID]"
+pbot_2 : "**Usage:**\n/unauthorize [CHAT_ID]"
+pbot_3 : "Menambahkan obrolan yang diberikan ke daftar resmi"
+pbot_4 : "Menghapus obrolan yang diberikan  dari daftar resmi"
+pbot_5 : "Obrolan sudah ada di daftar resmi"
+pbot_6 : "Tidak ada obrolan seperti itu di daftar resmi"
+pbot_7 : "Gagal memverifikasi chat_id.\n\nPastikan numerik dan dalam format yang benar. Jangan  gunakan nama pengguna atau tautan obrolan."
+pbot_8 : "Mohon tunggu.... Mengambil Obrolan Resmi."
+pbot_9 : "**<b>Obrolan yang Diambil:</b>**\n\n"
+pbot_10 : "Obrolan Pribadi"
+pbot_11  : "Tidak ada obrolan Resmi yang ditemukan"
+pbot_12 : "Mode Bot Pribadi dinonaktifkan.\n\nUntuk menggunakan bot Anda sebagai bot pribadi, pastikan untuk menyetel **PRIVATE_BOT_MODE** = **Benar**"
+pbot_13 : "\n**<  b>Obrolan yang Tidak Diambil:</b>**\n\n"
 
 #Gbanned
-gban_1 : "You want to gban yourself? How Fool!"
-gban_2 : "Should i block myself? Lol"
-gban_3 : "You want to block a sudo user?"
-gban_4 : "{0} is already **gbanned** from the bot."
-gban_5 : "**Initializing Gobal Ban on {0}**\n\nExpected Time : {1}."
-gban_6 : "**Gbanned Successfully**\n\nBanned **{0}** from **{1}** chats."
-gban_7 : "{0} is not **gbanned **yet from the bot."
-gban_8 : "**Ungbanning {0}**\n\nExpected Time : {1}."
-gban_9 : "**UnGbanned Successfully**\n\nUnbanned **{0}** in **{1}** chats."
-gban_10 : "No Gbanned Users Found."
-gban_11 : "Please wait a while.. Fetching Gbanned users list"
+gban_1 : "Anda ingin melakukan gban sendiri? Bodoh!"
+gban_2 : "Haruskah saya memblokir diri saya sendiri? Lol"
+gban_3 : "Anda ingin memblokir pengguna sudo?"
+gban_4 : "{0} sudah **gbanned** dari  bot."
+gban_5 : "**Menginisialisasi Larangan Gobal pada {0}**\n\nWaktu yang Diharapkan : {1}."
+gban_6 : "**Berhasil Diblokir**\n\nDiblokir **{0}** dari *  *{1}** chats."
+gban_7 : "{0} belum **gbanned **belum dari bot."
+gban_8 : "**Unbanning {0}**\n\nWaktu yang Diharapkan : {1}."
+gban_9 : "**UnGbanned Berhasil**\n\nUnbanned **{0}** di **{1}** chats."
+gban_10 : "Tidak Ditemukan Pengguna Gbanned."
+gban_11 : "Harap tunggu sebentar.. Mengambil  Daftar pengguna yang diblokir"
